@@ -8,7 +8,7 @@ It requires an Pushover (paid) account (only $5 per platform one-time, see https
 
 Step 0. Pick a release for your platform or build the (Visual Studio 2019 .NET Core 5) source from scratch.
 
-Step 1. Review the `settings.ini` and at least update the `\[Pushover\]` and `\[Calendar\]` sections.
+Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Calendar]` sections.
 
 ### \[Pushover\] section
 * Login on Pushover https://pushover.net/ or create account.
