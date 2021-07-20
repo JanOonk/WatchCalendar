@@ -6,14 +6,14 @@ It requires an Pushover (paid) account (only $5 per platform one-time, see https
 
 ## Installation
 
-Step 0. Pick a release for your platform or build the (Visual Studio 2019 .NET Core 5) source from scratch.
+Step 0. Pick a release for your platform or build the (Visual Studio 2019 .NET Core 5) source from scratch. Unpack into a new directory.
 
-Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Calendar]` sections.
+Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Calendar]` sections:
 
 ### \[Pushover\] section
 * Login on Pushover https://pushover.net/ or create account.
-* After logging in you will find `userkey`
-* Create a new application (only name is mandatory). After creating you will see the `application key` (=`apikey`).
+* After logging in you will find `userkey`, add this to the `userkey=` line.
+* Create a new application (only name is mandatory). After creating you will see the `application key`, add this to the `apikey` line.
 * Add a device where you want to receive Calendar change notifications on. Add the device name(s) comma separated on `devices=` line.
 
 ### \[Calendar\] section
