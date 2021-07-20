@@ -7,6 +7,7 @@ It requires an Pushover (paid) account (only $5 per platform one-time, see https
 ## Installation
 
 Step 0. Pick a release for your platform or build the (Visual Studio 2019 .NET Core 5) source from scratch. Unpack into a new directory.
+For Synology NAS use `WatchCalendar-1.0-linux-arm.rar`
 
 Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Calendar]` sections:
 
