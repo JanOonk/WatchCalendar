@@ -7,8 +7,8 @@ It requires an Pushover (paid) account (only $5 per platform one-time, see https
 ## Installation
 
 Step 0. Pick a release for your platform or build the (Visual Studio 2019 .NET Core 5) source from scratch. Unpack into a new directory.  
-For Raspberry Pi (tested with 3+) use `WatchCalendar-1.0-linux-arm.rar`  
-For Synology NAS use `WatchCalendar-1.0-linux-arm-netcoreapp3.1.rar` (tested with DS214+) and `WatchCalendar-1.0-linux-x64.rar` (tested with DS720+). Ignore the warning about missing file `/lib/libstdc++.so.6: no version information available (required by ./WatchCalendar)`
+For Raspberry Pi (works with 3+) use `WatchCalendar-1.0-linux-arm.rar`  
+For Synology NAS use `WatchCalendar-1.0-linux-arm-netcoreapp3.1.rar` (works with DS214+) or `WatchCalendar-1.0-linux-x64.rar` (works with DS720+). Ignore the warning about missing file `/lib/libstdc++.so.6: no version information available (required by ./WatchCalendar)`
 
 Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Calendar]` sections:
 
