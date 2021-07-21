@@ -29,6 +29,7 @@ Linux: `./WatchCalendar`
 Windows: `WatchCalendar.exe`
 
 ## Current limitations
+* only 1 calendar can be checked by 1 instance. Workaround is to have multiple programs running, each with their own settings.ini and calendar url.
 * doesn't see instance deletion(s) in a repeating event  
 When an instance from a repeating event (RRULE is set) is deleted an EXDATE is created  
  RRULE:FREQ=DAILY  
