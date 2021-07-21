@@ -31,6 +31,6 @@ Windows: `WatchCalendar.exe`
 ## Current limitations
 * doesn't see instance deletion(s) in a repeating event  
 When an instance from a repeating event (RRULE is set) is deleted an EXDATE is created  
- `RRULE:FREQ=DAILY  
- EXDATE;TZID=Europe/Amsterdam:20190419T161500`
+ RRULE:FREQ=DAILY  
+ EXDATE;TZID=Europe/Amsterdam:20190419T161500
 
