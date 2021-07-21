@@ -12,7 +12,7 @@ using RestSharp.Extensions;
 using IniParser;
 using IniParser.Model;
 using System.Threading;
-
+using System.Diagnostics;
 
 namespace WatchCalendar
 {
@@ -28,7 +28,7 @@ namespace WatchCalendar
 
         static void Main(string[] args)
         {
-            string path = Directory.GetCurrentDirectory();
+            string path = Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName);
 
             FileIniDataParser fileIniDataParser = new FileIniDataParser();
             IniData settings = fileIniDataParser.ReadFile($@"{path}/Settings.ini");
