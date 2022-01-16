@@ -23,7 +23,10 @@ Step 1. Review the `settings.ini` and at least update the `[Pushover]` and `[Cal
 
 
 Step 2. (Optional) Review the other settings  
-Step 3. Make a cronjob or use task scheduler to periodically call the program.  
+Step 3. Make a cronjob or use task scheduler to periodically call the program. For example for every hour add this line to `/etc/crontab`:  
+`0 * * * * root /home/ubuntu/WatchCalendar/WatchCalendar`
+
+ 
 Step 4. You can optionally run it by hand:  
 Linux: `./WatchCalendar`  
 Windows: `WatchCalendar.exe`
