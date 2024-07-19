@@ -47,8 +47,8 @@ namespace WatchCalendar
                 File.CreateText(logFile).Close();
             }
 
-            string apikey = settings["Pushover"]["apikey"].Trim(); //"afvt42nts29udxbfpfpwz84jxn4djp";
-            string userkey = settings["Pushover"]["userkey"].Trim(); //"ua47fojvsv9uphahwd7earkyuq35f4";
+            string apikey = settings["Pushover"]["apikey"].Trim();
+            string userkey = settings["Pushover"]["userkey"].Trim();
             List<string> devices = settings["Pushover"]["devices"].Split(",", StringSplitOptions.RemoveEmptyEntries).ToList(); //new List<string> {"iPhone6Jan"};//, "KirsteniPhone" };
 
             notificationAvailable = !(apikey == "" || userkey == "" || devices.Count <= 0);
